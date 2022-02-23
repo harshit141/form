@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link  href='https://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet'>
+    <link rel="stylesheet" href="styleform.css">
+ 
+</head>
+<body>
+    <form >
+<center> <h1>Registration form</h1>
+   <label for="name" > NAME:</label>
+   <input type="text" id="name" placeholder="write your name" required size="20"><BR></BR>
+    
+   <label for="email">EMAIL: </label>
+   <input type="email" id="email"placeholder="write your email" size="20">
+   <br><br>
+   <label for="D.O.B">DOB</label>
+   <input type="date" id="D.O.B" size="20">
+   <br><br>
+   
+   <label for="intro">INTRO:    </label>
+   <textarea  id="intro" cols="30" rows="5" placeholder="write about yourself"></textarea>
+  
+   <fieldset>
+       <legend>SKILLS</legend>
+       <div class="checkboxes">
+      <label for="html">HTML</label> 
+     <input type="checkbox" id="html" >
+     
+     <label for="ranges"></label>0
+     <input type="range" name="ranges" id="ranges">100
+     <br>
+
+     <label for="css">CSS</label> 
+     <input type="checkbox" id="css" >
+
+     <label for="ranges"></label>0
+     <input type="range" name="ranges" id="ranges">100
+     <br>
+
+     <label for="js">JAVASCRIPT</label> 
+     <input type="checkbox" id="js" >
+     <label for="ranges"></label>0
+     <input type="range" name="ranges" id="ranges">100
+</div>
+     
+   </fieldset><br><br>
+<input type="submit" value="submit">
+</center>
+
+    </form>
+</body>
+</html>

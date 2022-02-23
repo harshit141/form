@@ -1,0 +1,19 @@
+
+body{
+    background-image: url(pics/redcolo.jpg);
+    background-color: black;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:beige;
+    font-family:'Arizonia';
+}
+h1:hover{
+    background-color: red;
+color:black;
+
+}
+.checkboxes{
+    padding: 10px;
+    word-spacing: 20px;
+}
